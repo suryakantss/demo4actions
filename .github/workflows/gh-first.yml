@@ -2,7 +2,7 @@ name: sample workslow
 on: workflow_dispatch
 jobs:
   initjob:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - name: print greeting
       run: echo "Hello World!!"
